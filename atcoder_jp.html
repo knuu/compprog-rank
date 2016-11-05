@@ -3,48 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <title>Japanese Ranking of AtCoder</title>
-    <link rel="stylesheet" href="custom/css/bootstrap.css" />
+    <link rel="stylesheet" href="custom/css/bootstrap.min.css" />
     <link rel="stylesheet" href="custom/css/users.css" />
+    <link rel="stylesheet" href="custom/css/style.css" />
   </head>
 
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">CompProgRank</a>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AtCoder<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="atcoder.html">ALL</a></li>
+                <li><a href="atcoder_jp.html">Japan</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
     
   <div class="container">
     <h1> Japanese Ranking in AtCoder </h1>
-    <div class="col-sm-1">
-      <table class="table table-default table-striped table-hover table-condensed table-bordered">
+    <table class="table table-default table-striped table-hover table-condensed table-bordered">
         <thead>
-          
-            <th>JPRank(Rank)</th>
-          
-            <th>User</th>
-          
-            <th>Rating</th>
-          
-            <th>Highest</th>
-          
-            <th>Match</th>
-          
-            <th>Win</th>
-          
-            <th>Birth</th>
-          
-            <th>Twitter ID</th>
-          
-            <th>Affiliation</th>
-          
+          <th>JPRank(Rank)</th><th>User</th><th>Rating</th><th>Highest</th><th>Match</th><th>Win</th><th>Birth</th><th>Twitter ID</th><th>Affiliation</th>
         </thead>
 
         <tbody>
           
             <tr>
               <td>1(3)</td>
-              <td><a href="https://atcoder.jp/user/semiexp" class="username"><span style="color:#92D050;"
-  >semiexp</span></a></td>
-              <td><span style="color:#92D050;"
-  >3375</span></td>
-              <td><span style="color:#92D050;"
-  >3411</span></td>
+              <td><a href="https://atcoder.jp/user/semiexp" class="username"><span style="color:#92D050;">semiexp</span></a></td>
+              <td><span style="color:#92D050;">3375</span></td>
+              <td><span style="color:#92D050;">3411</span></td>
               <td>6</td>
               <td>2</td>
               <td></td>
@@ -24333,5 +24330,7 @@
     </div>
   </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="custom/js/bootstrap.min.js"></script>
   </body>
 </html>
